@@ -1,0 +1,64 @@
+    .multi-tab-form-main {
+        border: 1px solid black;
+        width: 600px;
+        height: 700px;
+        padding: 20px;
+    }
+    
+    .form__header--container {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .form--steps__divisions {
+        border: 1px solid black;
+        padding: 15px 25px;
+        cursor: pointer;
+    }
+    
+    .form--steps__divisions:hover {
+        background-color: rgb(34, 185, 219)
+    }
+    
+    .form__main--section {
+        height: 80%;
+        display: flex;
+        justify-content: start;
+    }
+    
+    .form {
+        display: flex;
+        width: 100%;
+        align-items: flex-start !important;
+        justify-content: space-around !important;
+    }
+    
+    .form_licence {
+        text-align: start;
+        font-size: 1.5rem;
+    }
+    
+    .form_elements {
+        width: 100%;
+    }
+    
+    .form_elements input {
+        width: 80% !important;
+        padding-left: 2% !important;
+    }
+    
+    button {
+        background-color: rgb(136, 136, 136);
+    }
+    
+    button:hover {
+        background-color: green;
+        color: white;
+    }
+    
+    .form-finish {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
